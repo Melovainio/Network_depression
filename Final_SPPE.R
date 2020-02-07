@@ -12,15 +12,15 @@ library(gridExtra)
 ####################################################################################################
 ############################### Network Analyses ###################################################
 ###############stringr##############################################################################
-setwd("/Users/melovain/Documents/Kone/terveys2000/Uudet2017")
+setwd("xxx")
 library(foreign)
 # ---------------------------------------------------------------------------------------
 ### reading data
-ma <- read.dta("/Users/melovain/Documents/Kone/terveys2000/Uudet2017/t20h.dta") #Year 2000 -11 mean / MDD-
+ma <- read.dta("") MDD-
 ma0 <- ma[,2:14] # Select only depression variables
 maa0 <- na.omit(ma0) # Listvise deletion
 data1<-as.data.frame(maa0)
-mb <- read.dta("/Users/melovain/Documents/Kone/terveys2000/Uudet2017/t20m.dta") #Year 2000 -11 mean / MDD+
+mb <- read.dta("") MDD+
 mb0 <- mb[,2:14] # Select only depression variables
 mbb0 <- na.omit(mb0) # Listvise deletion
 data3<-as.data.frame(mbb0)
